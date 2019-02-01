@@ -32,7 +32,7 @@ export default {
     await db.sessions.update(_key, { audioRecordings });
     commit('updateSessionRecordings', { _key, audioRecordings });
   },
-  async deletePracticeSession({ commit }, { session }) {
+  async deletePracticeSession({ commit }, session) {
     await db.sessions.delete(session._key);
     commit('deleteSession', session.id);
   },
