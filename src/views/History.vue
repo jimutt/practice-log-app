@@ -103,7 +103,7 @@ export default {
       if (!this.progressEnabled || this.weeklyGoal == null) {
         return 0;
       }
-      return this.practiceDuration / this.weeklyGoal;
+      return (this.practiceDuration / this.weeklyGoal) * 100;
     }
   },
   data() {
