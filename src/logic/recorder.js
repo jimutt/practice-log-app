@@ -52,7 +52,8 @@ export default class Recorder extends EventTarget {
 
   pause() {
     if (this._mediaRecorder && this._mediaRecorder.state === 'inactive') return;
-    this.recDuration += new Date();
+    this.recDuration += new Date() - this._recResumeTimestamp;
+    this._recResumeTimestamp = null;
     this._mediaRecorder.pause();
     this.dispatchEvent(new CustomEvent('pause'));
   }
@@ -80,7 +81,9 @@ export default class Recorder extends EventTarget {
   }
 
   _onRecorderStop(e) {
-    this.recDuration += new Date() - this._recResumeTimestamp;
+    if (this._recResumeTimestamp !== null) {
+      this.recDuration += new Date() - this._recResumeTimestamp;
+    }
     let blob = new Blob(this._audioChunks, { type: 'audio/mpeg' });
     this.lastRecording = {
       blob,
