@@ -25,8 +25,10 @@ Currently the app only features local, offline storage with IndexedDB. I plan to
 - Only tested on a couple of devices.
 - No tests at all. 
 
+## Credits
+[![Browserstack](https://s3.eu-central-1.amazonaws.com/ju-media/Browserstack-logo%402x.png)](http://browserstack.com/)
 
-
+Thank you Browserstack for letting me use your exceptional services for testing the app on iOS without buying additional hardware!
 
 ## Project setup
 
