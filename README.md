@@ -5,6 +5,8 @@
 
 ### Demo available at: https://practice-log.netlify.com
 
+**Audio recording will not work on Safari right now due to the fact that [Safari does not yet support EventTarget() constructor](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget#Browser_compatibility).**
+
 A Vue.js PWA demo app featuring IndexedDB storage and audio recording. The application's main purpose is to let you record and keep track of your practice sessions (with a focus on music, which explains the audio recording feature).
 
 Key technologies/dependencies:
