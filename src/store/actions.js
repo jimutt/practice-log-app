@@ -1,4 +1,4 @@
-import { db, resetDb } from '../db/db.js';
+import { db, resetDb } from '../db.js';
 import uuidv4 from 'uuid/v4';
 
 export default {

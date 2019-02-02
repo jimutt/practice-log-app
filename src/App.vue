@@ -23,7 +23,7 @@
 
 <script>
 import BottomNavigation from './components/BottomNavigation';
-import { initDb } from './db/db.js';
+import { initDb } from './db.js';
 
 export default {
   name: 'App',

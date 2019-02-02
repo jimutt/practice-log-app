@@ -25,7 +25,7 @@
 
 <script>
 import AudioDeviceSelectDialog from './AudioDeviceSelectDialog.vue';
-import Recorder from '../logic/recorder';
+import Recorder from '../recorder';
 import RecordingList from './RecordingList.vue';
 
 export default {
