@@ -27,6 +27,7 @@ Currently the app only features local, offline storage with IndexedDB. I plan to
 - You can only set one goal which counts all the practice time. In reality you'd probably want to set goals for specific practice categories.
 - Pretty rough code
 - Only tested on a couple of devices.
+- Audio recording does not work in Safari because of the Recorder class extending EventTarget. 
 - No unit tests at all. 
 
 ## Credits
