@@ -1,6 +1,6 @@
 {
-  "name": "practice-log-app",
-  "short_name": "practice-log-app",
+  "name": "Practice Log",
+  "short_name": "Practice Log",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
