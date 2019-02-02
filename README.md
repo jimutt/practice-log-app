@@ -3,7 +3,7 @@
 <img alt="app screens" src="https://s3.eu-central-1.amazonaws.com/ju-media/practicelog_screens.png" height="400" />
 </div>
 
-### Demo available at: https://inspiring-leavitt-98b934.netlify.com
+### Demo available at: https://practice-log.netlify.com
 
 A Vue.js PWA concept app featuring IndexedDB storage and audio recording. The application's main purpose is to let you record and keep track of your practice sessions (with a focus on music, which explains the audio recording feature).
 
