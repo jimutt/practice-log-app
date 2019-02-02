@@ -5,7 +5,7 @@
 
 ### Demo available at: https://practice-log.netlify.com
 
-A Vue.js PWA concept app featuring IndexedDB storage and audio recording. The application's main purpose is to let you record and keep track of your practice sessions (with a focus on music, which explains the audio recording feature).
+A Vue.js PWA demo app featuring IndexedDB storage and audio recording. The application's main purpose is to let you record and keep track of your practice sessions (with a focus on music, which explains the audio recording feature).
 
 Key technologies/dependencies:
 
@@ -23,6 +23,7 @@ Currently the app only features local, offline storage with IndexedDB. I plan to
 - No handling of IndexedDB storage size limitations. 
 - Designed for mobile devices in portrait mode
 - You can only set one goal which counts all the practice time. In reality you'd probably want to set goals for specific practice categories.
+- Pretty rough code
 - Only tested on a couple of devices.
 - No unit tests at all. 
 
